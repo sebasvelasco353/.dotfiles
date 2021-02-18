@@ -1,7 +1,7 @@
 # .dotfiles
----
 
 collection of my dot files.
+---
 
 ## Steps to bootstrap a new Mac
 1. Install apples command line tools in order to use Git and Homebrew
