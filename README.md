@@ -1,6 +1,8 @@
 # .dotfiles
 collection of my dot files with some scripts to install things as easy as possible.
 
+this repo was created based on the course and recommendations of [Patrick McDonald](https://twitter.com/EIEIOxyz) in the udemy course [Dotfiles from Start to Finish-ish](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276)
+
 ## TODO:
 - finish the manual install text
 - check if FZF works after this installation
