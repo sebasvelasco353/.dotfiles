@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "jesseduffield/lazygit"
+# Arduino command-line interface
+brew "arduino-cli"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -15,9 +17,11 @@ brew "ripgrep"
 brew "cjbassi/ytop/ytop"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
+# Open-source electronics prototyping platform
+cask "arduino"
 # Voice and text chat software
 cask "discord"
-# Design
+# Design app
 cask "figma"
 # Web browser
 cask "google-chrome"
