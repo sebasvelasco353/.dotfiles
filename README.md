@@ -4,10 +4,16 @@ collection of my dot files.
 ---
 
 ## Install using script
+1. cd into the repo folder
 ```
-# cd into the repo folder
 ./install
 ```
+2. after that finishes open nvim and install using plug
+```
+:PlugInstall
+```
+3. Grab a beer and enjoy.
+
 
 ## Steps to bootstrap a new Mac Manually
 1. Install apples command line tools in order to use Git and Homebrew
