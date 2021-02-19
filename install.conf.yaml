@@ -8,12 +8,19 @@
     ~/.gitconfig:
     ~/.p10k.zsh:
     ~/.zshrc:
+    ~/.config/init.vim: nvim/init.vim
 
-# - create:
-    # - ~/holis
+- create:
+    - ~/.config/nvim/colors
+    - ~/.config/nvim/plugged
+    - ~/.config/nvim/undodir
 
 - shell:
   - 
     command: ./setup_homebrew.zsh
+    stdout: true
+    stderr: true
+  - 
+    command: ./setup_nvim.zsh
     stdout: true
     stderr: true
