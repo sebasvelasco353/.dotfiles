@@ -15,5 +15,21 @@ brew "ripgrep"
 brew "cjbassi/ytop/ytop"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
+# Voice and text chat software
+cask "discord"
+# Design
+cask "figma"
+# Web browser
+cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Collaboration platform for API development
+cask "postman"
+# Music streaming service
+cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
