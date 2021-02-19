@@ -17,6 +17,10 @@
 
 - shell:
   - 
+    command: ./setup_xcode_ohmyzsh.zsh
+    stdout: true
+    stderr: true
+  - 
     command: ./setup_homebrew.zsh
     stdout: true
     stderr: true

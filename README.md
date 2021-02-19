@@ -3,7 +3,13 @@
 collection of my dot files.
 ---
 
-## Steps to bootstrap a new Mac
+## Install using script
+```
+# cd into the repo folder
+./install
+```
+
+## Steps to bootstrap a new Mac Manually
 1. Install apples command line tools in order to use Git and Homebrew
 ```
 xcode-select --install
@@ -36,3 +42,7 @@ ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 # Pass the Brewfile
 brew bundle --file ~/.dotfiles/Brewfile
 ```
+
+
+## TODO:
+- finish the manual install text
