@@ -3,6 +3,13 @@ collection of my dot files with some scripts to install things as easy as possib
 
 this repo was created based on the course and recommendations of [Patrick McDonald](https://twitter.com/EIEIOxyz) in the udemy course [Dotfiles from Start to Finish-ish](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276)
 
+## REMEMBER
+after installing new casks (apps) with brew, if you want them to be automatically installed with the
+install script remember to add them to the brew file using this command in the .dotfiles folder:
+```
+brew bundle dump --force --describe
+```
+
 ## TODO:
 - Finish the manual installation text
 - Add global npm package.json file (where is it!?!?!)
