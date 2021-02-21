@@ -19,9 +19,11 @@ brew "cjbassi/ytop/ytop"
 brew "jesseduffield/lazygit/lazygit"
 # Open-source electronics prototyping platform
 cask "arduino"
+# Virtual Audio Driver
+cask "blackhole-16ch"
 # Voice and text chat software
 cask "discord"
-# Design app
+# Design
 cask "figma"
 # Web browser
 cask "google-chrome"
@@ -33,6 +35,8 @@ cask "notion"
 cask "obs"
 # Collaboration platform for API development
 cask "postman"
+# Move and resize windows with ease
+cask "spectacle"
 # Music streaming service
 cask "spotify"
 # Open-source code editor

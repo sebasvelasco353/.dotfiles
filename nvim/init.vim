@@ -37,7 +37,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'gruvbox-community/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'drewtempelmeyer/palenight.vim'
-Plug 'ghifarit53/tokyonight-vim'
 Plug 'ntk148v/vim-horizon'
 Plug 'ajmwagar/vim-deus'
 
@@ -67,19 +66,15 @@ Plug 'voldikss/vim-floaterm'
 call plug#end()
 "colorscheme horizon
 
-colorscheme deus
-
-"let g:tokyonight_style = 'storm' " available: night, storm
-"let g:tokyonight_enable_italic = 0
-"colorscheme tokyonight
+"colorscheme deus
 
 "colorscheme gruvbox
 
 "let ayucolor="dark"
 "colorscheme ayu
 
-"set background=dark
-"colorscheme palenight
+set background=dark
+colorscheme palenight
 
 highlight Normal guibg=none
 
