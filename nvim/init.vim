@@ -1,3 +1,5 @@
+source ~/.config/nvim/plug-config/coc.vim
+
 syntax on
 filetype plugin indent on
 

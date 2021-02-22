@@ -9,11 +9,13 @@
     ~/.p10k.zsh:
     ~/.zshrc:
     ~/init.vim: nvim/init.vim
+    ~/coc-settings.json: nvim/coc-settings.json
 
 - create:
     - ~/.config/nvim/colors
     - ~/.config/nvim/plugged
     - ~/.config/nvim/undodir
+    - ~/.config/nvim/plug-config
 
 - shell:
   - 

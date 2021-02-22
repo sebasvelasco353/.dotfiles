@@ -27,42 +27,19 @@ brew bundle dump --force --describe
 ```
 3. now you can install the CoC.vim extensions with something like:
 ```
-:CocInstall coc-json coc-tsserver coc-css coc-html coc-vetur
+:CocInstall coc-json coc-tsserver coc-css coc-html coc-vetur coc-python coc-snippets
 ```
 
-4. Grab a beer and enjoy.
-
-
-## Steps to bootstrap a new Mac Manually
-1. Install apples command line tools in order to use Git and Homebrew
+4. install jedi (for the Coc configuration to work)
 ```
-xcode-select --install
+pip3 install jedi
 ```
 
-2. Install OhMyZsh
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+5. Grab a beer and enjoy.
 
-3. Install iterm from [the official web page](https://iterm2.com/)
 
-4. Clone repo into home folder
-```
-cd && git clone https://github.com/sebasvelasco353/.dotfiles.git
-```
-
-5. Create SymLinks in ~ to the real files in the repo you just created
-```
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
-```
-
-6. Install homebrew and then the software needed after thar
-```
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Pass the Brewfile
-brew bundle --file ~/.dotfiles/Brewfile
-```
+## Screenshots
+### Nvim
+![Regular js](./assets/Screenshot1.png "Regular Js")
+![Fuzy finder](./assets/Screenshot2.png "Fuzy Finder")
+![Projetc wide word search](./assets/Screenshot3.png "Project wide word search")
