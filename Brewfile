@@ -5,6 +5,8 @@ tap "homebrew/core"
 tap "jesseduffield/lazygit"
 # Arduino command-line interface
 brew "arduino-cli"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -23,8 +25,9 @@ cask "arduino"
 cask "blackhole-16ch"
 # Voice and text chat software
 cask "discord"
-# Design
 cask "figma"
+# Web browser
+cask "firefox"
 # Web browser
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app

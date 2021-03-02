@@ -51,7 +51,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'preservim/nerdcommenter'
-Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
@@ -64,20 +63,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "Terminal
 Plug 'voldikss/vim-floaterm'
-
 call plug#end()
-"colorscheme horizon
-
-"colorscheme deus
-
-"colorscheme gruvbox
-
-"let ayucolor="dark"
-"colorscheme ayu
 
 set background=dark
 colorscheme palenight
-
+"colorscheme gruvbox
 highlight Normal guibg=none
 
 "Coc.vim configuration

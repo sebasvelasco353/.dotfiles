@@ -14,7 +14,6 @@ brew bundle dump --force --describe
 - Finish the manual installation text
 - Add global npm package.json file (where is it!?!?!)
 - Add platformio plugin to VS Code or find a way to code, run, autocomplete and linter arduino in nvim
-- Check if FZF works after this installation
 
 ## Install using script
 1. cd into the repo folder
@@ -27,7 +26,7 @@ brew bundle dump --force --describe
 ```
 3. now you can install the CoC.vim extensions with something like:
 ```
-:CocInstall coc-json coc-tsserver coc-css coc-html coc-vetur coc-python coc-snippets
+:CocInstall coc-json coc-tsserver coc-css coc-html coc-vetur coc-python coc-snippets coc-tailwindcss
 ```
 
 4. install jedi (for the Coc configuration to work)
