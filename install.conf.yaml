@@ -10,6 +10,7 @@
     ~/.zshrc:
     ~/init.vim: nvim/init.vim
     ~/coc-settings.json: nvim/coc-settings.json
+    ~/start-screen.vim: nvim/start-screen.vim
 
 - create:
     - ~/.config/nvim/colors
