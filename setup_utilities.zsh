@@ -17,7 +17,9 @@ brew bundle --verbose
 
 echo "\n <<< Starting Vim Setup >>>\n"
 mv ~/init.vim ~/.config/nvim/init.vim
-echo "\n <<< moved the file! >>>\n"
+echo "\n <<< Starting Vim Startup screen setup >>>\n"
+mv ~/start-screen.vim ~/.config/nvim/plug-config/start-screen.vim
+echo "\n <<< moved the files! >>>\n"
 
 echo "\n <<< Installing Vim-Plug (Plugin manager) >>>\n"
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
