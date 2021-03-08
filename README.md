@@ -16,9 +16,9 @@ brew bundle dump --force --describe
 - Add platformio plugin to VS Code or find a way to code, run, autocomplete and linter arduino in nvim
 
 ## Install using script
-1. cd into the repo folder
+1. cd into the repo folder and run install script
 ```
-./install
+cd .dotfiles && ./install
 ```
 2. after that finishes open nvim and install using plug
 ```
@@ -39,6 +39,6 @@ pip3 install jedi
 
 ## Screenshots
 ### Nvim
-![Regular js](./assets/Screenshot1.png "Regular Js")
+![vim config](./assets/Screenshot1.png "Regular vim config")
 ![Fuzy finder](./assets/Screenshot2.png "Fuzy Finder")
 ![Projetc wide word search](./assets/Screenshot3.png "Project wide word search")
