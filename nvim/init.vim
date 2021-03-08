@@ -70,7 +70,7 @@ source ~/.config/nvim/plug-config/coc.vim
 source ~/.config/nvim/plug-config/start-screen.vim
 
 set background=dark
-colorscheme gruvbox
+colorscheme deus
 highlight Normal guibg=none
 
 "Coc.vim configuration
