@@ -56,6 +56,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
+Plug 'airblade/vim-gitgutter'
 
 "Search and autocomplete
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -70,7 +71,7 @@ source ~/.config/nvim/plug-config/coc.vim
 source ~/.config/nvim/plug-config/start-screen.vim
 
 set background=dark
-colorscheme deus
+colorscheme gruvbox
 highlight Normal guibg=none
 
 "Coc.vim configuration
@@ -115,16 +116,9 @@ endfunction
 
 let mapleader = " "
 
-"Open nerdTree automatically when no file is selected on vim start
-"autocmd StdinReadPre * let s:std_in=1 
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-"Open NerdTree when i open a folder
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
-"
 "Close vim if the only window left its filetree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 "Change NerdTree arrows
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
@@ -141,6 +135,7 @@ let g:vue_pre_processors = 'detect_on_enter'
 
 map <ScrollWheelDown> j
 map <ScrollWheelUp> k
+nnoremap <Leader>B :Buffers<cr>
 
 nnoremap <leader>udt :UndotreeToggle<CR>
 nnoremap <leader>ntt :NERDTreeToggle<CR>
