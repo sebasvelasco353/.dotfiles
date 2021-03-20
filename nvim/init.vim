@@ -56,7 +56,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
-Plug 'airblade/vim-gitgutter'
+Plug 'mhinz/vim-signify'
 
 "Search and autocomplete
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
