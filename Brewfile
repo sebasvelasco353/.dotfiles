@@ -7,6 +7,8 @@ tap "jesseduffield/lazygit"
 brew "arduino-cli"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -23,6 +25,8 @@ brew "jesseduffield/lazygit/lazygit"
 cask "arduino"
 # Virtual Audio Driver
 cask "blackhole-16ch"
+# E-books management software
+cask "calibre"
 # Voice and text chat software
 cask "discord"
 cask "figma"
