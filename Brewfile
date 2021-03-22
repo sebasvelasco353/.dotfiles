@@ -11,6 +11,10 @@ brew "python@3.9"
 brew "ffmpeg"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Run a Kubernetes cluster locally
+brew "minikube"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Platform built on V8 to build network applications
@@ -29,6 +33,8 @@ cask "blackhole-16ch"
 cask "calibre"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
 cask "figma"
 # Web browser
 cask "firefox"
