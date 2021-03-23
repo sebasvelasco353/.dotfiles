@@ -17,14 +17,18 @@ brew bundle --verbose
 
 echo "\n <<< Starting Vim Setup >>>\n"
 mv ~/init.vim ~/.config/nvim/init.vim
+
 echo "\n <<< Starting Vim Startup screen setup >>>\n"
 mv ~/start-screen.vim ~/.config/nvim/plug-config/start-screen.vim
+
+echo "\n <<< Moving coc-config file to .config >>> \n "
+mv ~/coc-settings.json ~/.config/nvim/coc-settings.json
+
+echo "\n <<< Moving coc.vim file to .config/nvim/plug-config >>> \n "
+mv ~/coc.vim ~/.config/nvim/plug-config/coc.vim
 echo "\n <<< moved the files! >>>\n"
 
 echo "\n <<< Installing Vim-Plug (Plugin manager) >>>\n"
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-
-echo "\n <<< Moving coc-config file to .config >>> \n "
-mv ~/coc-settings.json ~/.config/nvim/coc-settings.json
 

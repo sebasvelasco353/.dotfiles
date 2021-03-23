@@ -3,6 +3,7 @@ filetype plugin indent on
 
 set exrc
 set guicursor=n-v-c-i:block-Curso
+set cursorcolumn
 set relativenumber
 set nohlsearch
 set hidden
