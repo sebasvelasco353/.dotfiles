@@ -12,6 +12,7 @@
     ~/coc-settings.json: nvim/coc-settings.json
     ~/start-screen.vim: nvim/start-screen.vim
     ~/coc.vim: nvim/coc.vim
+    ~/which_key.vim: nvim/which-key.vim
 
 - create:
     - ~/.config/nvim/colors

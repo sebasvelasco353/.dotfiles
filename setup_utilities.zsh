@@ -26,6 +26,9 @@ mv ~/coc-settings.json ~/.config/nvim/coc-settings.json
 
 echo "\n <<< Moving coc.vim file to .config/nvim/plug-config >>> \n "
 mv ~/coc.vim ~/.config/nvim/plug-config/coc.vim
+
+echo "\n <<< Moving which_key.vim file to .config/nvim/plug-config >>> \n "
+mv ~/which_key.vim ~/.config/nvim/plug-config/which-key.vim
 echo "\n <<< moved the files! >>>\n"
 
 echo "\n <<< Installing Vim-Plug (Plugin manager) >>>\n"

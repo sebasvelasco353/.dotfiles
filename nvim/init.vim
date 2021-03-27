@@ -58,6 +58,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'mhinz/vim-signify'
+Plug 'liuchengxu/vim-which-key'
 
 "Search and autocomplete
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -70,6 +71,7 @@ call plug#end()
 
 source ~/.config/nvim/plug-config/coc.vim
 source ~/.config/nvim/plug-config/start-screen.vim
+source ~/.config/nvim/plug-config/which-key.vim
 
 set background=dark
 colorscheme gruvbox
@@ -136,12 +138,12 @@ let g:vue_pre_processors = 'detect_on_enter'
 
 map <ScrollWheelDown> j
 map <ScrollWheelUp> k
-nnoremap <Leader>B :Buffers<cr>
 
+nnoremap <Leader>B :Buffers<cr>
 nnoremap <leader>udt :UndotreeToggle<CR>
 nnoremap <leader>ntt :NERDTreeToggle<CR>
-nnoremap <leader>q :bd #<CR>
-nnoremap <leader>fzf :GFiles<CR>
+nnoremap <leader>sz :GFiles<CR>
+
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-s': 'split',
