@@ -37,9 +37,6 @@ call plug#begin('~/.config/nvim/plugged')
 "Themes
 Plug 'gruvbox-community/gruvbox'
 Plug 'ayu-theme/ayu-vim'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'ntk148v/vim-horizon'
-Plug 'ajmwagar/vim-deus'
 
 "Start page
 Plug 'mhinz/vim-startify'
@@ -74,8 +71,8 @@ source ~/.config/nvim/plug-config/start-screen.vim
 source ~/.config/nvim/plug-config/which-key.vim
 
 set background=dark
-colorscheme gruvbox
-highlight Normal guibg=none
+colorscheme ayu
+"highlight Normal guibg=none
 
 "Coc.vim configuration
 " Use tab for trigger completion with characters ahead and navigate.
