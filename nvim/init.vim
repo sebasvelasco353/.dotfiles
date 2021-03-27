@@ -1,6 +1,8 @@
 syntax on
 filetype plugin indent on
 
+let mapleader = " "
+
 set exrc
 set guicursor=n-v-c-i:block-Curso
 set cursorcolumn
@@ -113,8 +115,6 @@ function! LinterStatus() abort
         \   all_errors
         \)
 endfunction
-
-let mapleader = " "
 
 "Close vim if the only window left its filetree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
