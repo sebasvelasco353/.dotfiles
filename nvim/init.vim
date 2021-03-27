@@ -39,6 +39,7 @@ call plug#begin('~/.config/nvim/plugged')
 "Themes
 Plug 'gruvbox-community/gruvbox'
 Plug 'ayu-theme/ayu-vim'
+Plug 'tyrannicaltoucan/vim-deep-space'
 
 "Start page
 Plug 'mhinz/vim-startify'
@@ -73,7 +74,8 @@ source ~/.config/nvim/plug-config/start-screen.vim
 source ~/.config/nvim/plug-config/which-key.vim
 
 set background=dark
-colorscheme ayu
+set termguicolors
+colorscheme deep-space
 "highlight Normal guibg=none
 
 "Coc.vim configuration
@@ -122,14 +124,13 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "Change NerdTree arrows
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
-let g:AirlineTheme='hunks'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#hunks#enabled=1
 let g:airline_section_b='%{GitBranch()}'
 let g:airline_section_y='%{LinterStatus()}'
-let g:airline_theme='wombat'
+let g:airline_theme='deep_space'
 let NERDTreeShowHidden=1
 let g:vue_pre_processors = 'detect_on_enter'
 
