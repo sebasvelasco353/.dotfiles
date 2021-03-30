@@ -38,9 +38,8 @@ set splitbelow
 call plug#begin('~/.config/nvim/plugged')
 "Themes
 Plug 'gruvbox-community/gruvbox'
-Plug 'ayu-theme/ayu-vim'
-Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'sts10/vim-pink-moon'
+Plug 'arzg/vim-colors-xcode'
 
 "Start page
 Plug 'mhinz/vim-startify'
