@@ -134,13 +134,21 @@ let g:airline_theme='deus'
 let NERDTreeShowHidden=1
 let g:vue_pre_processors = 'detect_on_enter'
 
-map <ScrollWheelDown> j
-map <ScrollWheelUp> k
-
 nnoremap <Leader>B :Buffers<cr>
 nnoremap <leader>udt :UndotreeToggle<CR>
 nnoremap <leader>ntt :NERDTreeToggle<CR>
 nnoremap <leader>sz :GFiles<CR>
+
+"move line up or down
+nnoremap <A-Down> :m .+1<CR>==
+nnoremap <A-Up> :m .-2<CR>==
+inoremap <A-Down> <ESC>:m .+1<CR>==gi
+inoremap <A-Up> <ESC>:m .-2<CR>==gi
+vnoremap <A-Down> :m '>+1<CR>gv=gv
+vnoremap <A-Up> :m '<-2<CR>gv=gv
+
+"Divide in new line
+nnoremap <C-n> i<CR><ESC>
 
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',

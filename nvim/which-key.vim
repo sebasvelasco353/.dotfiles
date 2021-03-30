@@ -57,7 +57,7 @@ let g:which_key_map.s = {
       \ }
 
 let which_key_map.f = {
-      \ 'name' : '+Floating-Terminal' ,
+      \ 'name' : '+Floating-Terminal',
       \ 'l' : [':FloatermNew --autoclose=2 --height=0.8 --width=0.8 --wintype=floating lazygit', 'LazyGit'],
       \ 't' : [':FloatermNew --autoclose=2 --height=0.75 --width=0.75 --wintype=floating', 'New Terminal'],
       \ }
