@@ -37,7 +37,6 @@ pip3 install jedi
 
 5. Grab a beer and enjoy.
 
-
 ## Screenshots
 Collection of screenshots to show how and what i use this dotfiles for.
 

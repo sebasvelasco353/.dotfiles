@@ -62,6 +62,7 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 "Search and autocomplete
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
