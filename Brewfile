@@ -16,7 +16,7 @@ brew "kubernetes-cli"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 # Platform built on V8 to build network applications
 brew "node"
 # Search tool like grep and The Silver Searcher
@@ -56,5 +56,7 @@ cask "spectacle"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Free and open-source hosted hypervisor for x86 virtualization
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
