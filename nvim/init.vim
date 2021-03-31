@@ -61,9 +61,9 @@ Plug 'mhinz/vim-signify'
 Plug 'liuchengxu/vim-which-key'
 
 "Search and autocomplete
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 "Terminal
 Plug 'voldikss/vim-floaterm'
@@ -133,10 +133,13 @@ let g:airline_theme='deus'
 let NERDTreeShowHidden=1
 let g:vue_pre_processors = 'detect_on_enter'
 
-nnoremap <Leader>B :Buffers<cr>
 nnoremap <leader>udt :UndotreeToggle<CR>
 nnoremap <leader>ntt :NERDTreeToggle<CR>
-nnoremap <leader>sz :GFiles<CR>
+
+" Find files using Telescope command-line sugar.
+nnoremap <leader>sz <cmd>Telescope find_files<cr>
+nnoremap <leader>st <cmd>Telescope live_grep<cr>
+nnoremap <leader>sB <cmd>Telescope buffers<cr>
 
 "move line up or down
 nnoremap <A-Down> :m .+1<CR>==
