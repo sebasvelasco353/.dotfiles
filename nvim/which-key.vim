@@ -24,7 +24,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 "Single mappings
 let g:which_key_map['ci'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
-let g:which_key_map['B'] = [ ':Buffers'  , 'buffers' ]
+let g:which_key_map['B'] = [ ':Telescope buffers'  , 'buffers' ]
 let g:which_key_map['udt'] = [ ':UndotreeToggle'  , 'undo tree' ]
 let g:which_key_map['ntt'] = [ ':NERDTreeToggle'  , 'NERD tree' ]
 
@@ -34,7 +34,7 @@ let g:which_key_map.s = {
       \ ';' : [':Commands'     , 'commands'],
       \ 'a' : [':Ag'           , 'text Ag'],
       \ 'b' : [':BLines'       , 'current buffer'],
-      \ 'B' : [':Buffers'      , 'open buffers'],
+      \ 'B' : [':Telescope buffers', 'open buffers'],
       \ 'c' : [':Commits'      , 'commits'],
       \ 'C' : [':BCommits'     , 'buffer commits'],
       \ 'f' : [':Files'        , 'files'],
@@ -42,16 +42,8 @@ let g:which_key_map.s = {
       \ 'G' : [':GFiles?'      , 'modified git files'],
       \ 'h' : [':History'      , 'file history'],
       \ 'H' : [':History:'     , 'command history'],
-      \ 'l' : [':Lines'        , 'lines'] ,
-      \ 'm' : [':Marks'        , 'marks'] ,
-      \ 'M' : [':Maps'         , 'ormal maps'] ,
-      \ 'p' : [':Helptags'     , 'help tags'] ,
-      \ 'P' : [':Tags'         , 'project tags'],
-      \ 's' : [':Snippets'     , 'snippets'],
       \ 'S' : [':Colors'       , 'color schemes'],
       \ 't' : [':Telescope live_grep', 'text Rg'],
-      \ 'T' : [':BTags'        , 'buffer tags'],
-      \ 'w' : [':Windows'      , 'search windows'],
       \ 'y' : [':Filetypes'    , 'file types'],
       \ 'z' : [':Telescope find_files', 'Fuzzy Find'],
       \ }

@@ -133,15 +133,13 @@ let g:airline_theme='deus'
 let NERDTreeShowHidden=1
 let g:vue_pre_processors = 'detect_on_enter'
 
-nnoremap <Leader>B :Buffers<cr>
 nnoremap <leader>udt :UndotreeToggle<CR>
 nnoremap <leader>ntt :NERDTreeToggle<CR>
 
 " Find files using Telescope command-line sugar.
 nnoremap <leader>sz <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>st <cmd>Telescope live_grep<cr>
+nnoremap <leader>sB <cmd>Telescope buffers<cr>
 
 "move line up or down
 nnoremap <A-Down> :m .+1<CR>==
