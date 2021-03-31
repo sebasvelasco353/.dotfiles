@@ -59,6 +59,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'mhinz/vim-signify'
 Plug 'liuchengxu/vim-which-key'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 "Search and autocomplete
 Plug 'nvim-lua/popup.nvim'
@@ -135,6 +136,9 @@ let g:vue_pre_processors = 'detect_on_enter'
 
 nnoremap <leader>udt :UndotreeToggle<CR>
 nnoremap <leader>ntt :NERDTreeToggle<CR>
+
+"live preview of markdown files
+nmap <leader>md :MarkdownPreviewToggle<CR>
 
 " Find files using Telescope command-line sugar.
 nnoremap <leader>sz <cmd>Telescope find_files<cr>

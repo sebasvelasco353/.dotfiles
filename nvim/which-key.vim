@@ -27,6 +27,7 @@ let g:which_key_map['ci'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
 let g:which_key_map['B'] = [ ':Telescope buffers'  , 'buffers' ]
 let g:which_key_map['udt'] = [ ':UndotreeToggle'  , 'undo tree' ]
 let g:which_key_map['ntt'] = [ ':NERDTreeToggle'  , 'NERD tree' ]
+let g:which_key_map['md'] = [':MarkdownPreviewToggle', 'Mearkdown Live Preview']
 
 let g:which_key_map.s = {
       \ 'name' : '+search' ,

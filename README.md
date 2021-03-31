@@ -23,6 +23,7 @@ cd .dotfiles && ./install
 2. after that finishes open nvim and install using plug
 ```
 :PlugInstall
+:call mkdp#util#install()
 ```
 3. now you can install the CoC.vim extensions with something like:
 ```
@@ -38,7 +39,15 @@ pip3 install jedi
 
 
 ## Screenshots
-### Nvim
-![vim config](./assets/Screenshot1.png "Regular vim config")
-![Fuzy finder](./assets/Screenshot2.png "Fuzy Finder")
-![Projetc wide word search](./assets/Screenshot3.png "Project wide word search")
+Collection of screenshots to show how and what i use this dotfiles for.
+
+### Start screen for easy access
+![Start screen for easy access](./assets/Screenshot1.png "Start Screen")
+### Live Grep
+![Live Grep](./assets/Screenshot2.png "Live Grep")
+### Fuzzy Finding
+![Fuzzy Finding](./assets/Screenshot3.png "Fuzzy Finder")
+### Floating Terminal
+![Floating Terminal](./assets/Screenshot4.png "Floating Terminal")
+### Key mappings index
+![Which Key](./assets/Screenshot5.png "Which Key")
