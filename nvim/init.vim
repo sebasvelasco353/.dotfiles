@@ -41,9 +41,6 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'sts10/vim-pink-moon'
 Plug 'arzg/vim-colors-xcode'
 
-"Start page
-Plug 'mhinz/vim-startify'
-
 "Utilities
 Plug 'ap/vim-css-color'
 Plug 'mbbill/undotree'
@@ -72,12 +69,11 @@ Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 source ~/.config/nvim/plug-config/coc.vim
-source ~/.config/nvim/plug-config/start-screen.vim
 source ~/.config/nvim/plug-config/which-key.vim
 
 set background=dark
 colorscheme pink-moon 
-"highlight Normal guibg=none
+highlight Normal guibg=none
 
 "Coc.vim configuration
 " Use tab for trigger completion with characters ahead and navigate.
