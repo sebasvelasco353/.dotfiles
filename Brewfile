@@ -46,8 +46,6 @@ cask "iterm2"
 cask "notion"
 # Open-source software for live streaming and screen recording
 cask "obs"
-# Alternate version of the Opera web browser to complement gaming
-cask "opera-gx"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows with ease

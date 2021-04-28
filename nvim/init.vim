@@ -59,6 +59,7 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 "Search and autocomplete
+Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -72,8 +73,7 @@ source ~/.config/nvim/plug-config/coc.vim
 source ~/.config/nvim/plug-config/which-key.vim
 
 set background=dark
-colorscheme pink-moon 
-highlight Normal guibg=none
+colorscheme xcodedarkhc  
 
 "Coc.vim configuration
 " Use tab for trigger completion with characters ahead and navigate.
