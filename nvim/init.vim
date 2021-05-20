@@ -34,17 +34,21 @@ set cmdheight=1
 set updatetime=50
 set splitright " open new split panes to right and below
 set splitbelow
+set listchars=tab:\|\
+set list
 
 call plug#begin('~/.config/nvim/plugged')
 "Themes
 Plug 'gruvbox-community/gruvbox'
 Plug 'sts10/vim-pink-moon'
 Plug 'arzg/vim-colors-xcode'
+Plug 'artanikin/vim-synthwave84'
 
 "Utilities
 Plug 'ap/vim-css-color'
 Plug 'mbbill/undotree'
 Plug 'leafOfTree/vim-vue-plugin'
+Plug 'leafgarland/typescript-vim'
 Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ryanoasis/vim-devicons'
@@ -73,7 +77,7 @@ source ~/.config/nvim/plug-config/coc.vim
 source ~/.config/nvim/plug-config/which-key.vim
 
 set background=dark
-colorscheme xcodedarkhc  
+colorscheme synthwave84
 
 "Coc.vim configuration
 " Use tab for trigger completion with characters ahead and navigate.
